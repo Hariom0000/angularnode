@@ -20,3 +20,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#add 'node_modules' to .gitignore file
+
+git rm -r --cached node_modules
+git commit -m 'Remove the now ignored directory node_modules'
+git push origin master
